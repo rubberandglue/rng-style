@@ -7,13 +7,13 @@ require "rng-style/version"
 Gem::Specification.new do |s|
   s.name        = "rng-style"
   s.version     = RngStyle::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RngStyle."
-  s.description = "TODO: Description of RngStyle."
+  s.authors     = ["Christian Finck"]
+  s.email       = ["christian@rubberandglue.at"]
+  s.homepage    = "https://github.com/finchi/rng-style"
+  s.summary     = "Rubber&Glue styles"
+  s.description = "Rubber&Glue styles"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 3.2.3"
   s.add_dependency 'bootstrap-sass', '~> 2.0.1'

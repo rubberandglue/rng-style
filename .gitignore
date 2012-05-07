@@ -1,0 +1,9 @@
+.bundle
+.powder
+.rvmrc
+*.sqlite3
+*.log
+.idea/*
+test/dummy/*.log
+test/dummy/config/database.yml
+test/dummy/tmp/*
